@@ -8,6 +8,7 @@ public class MyLinkedList<T> implements MyList<T> {
 
     public void add(T value) {
         NodeList elementToAdd = new NodeList(value);
+
         size++;
         if (first == null) {
             first = elementToAdd;

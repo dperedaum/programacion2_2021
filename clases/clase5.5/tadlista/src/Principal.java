@@ -1,7 +1,7 @@
 public class Principal {
 
     public static MyList<Integer> getPairNumbers(MyList<Integer> numbers) {
-        MyList toReturn = new MyLinkedList();
+        MyList<Integer> toReturn = new MyLinkedList();
 
         for(int i = 0; i < numbers.size(); i++) {
             Integer value = numbers.get(i);
